@@ -1,78 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
-      <header>
-          <h2 class="subtitle">About Me</h2>
-    <h1 style="color:indigo;">Meet the team</h1>
-    <h2 class="main-subtitle" Style="color:gray;">The People Who make the software awesome</h2>
-    
-      </header>
-      <!-- ----------------------------------------------- -->
-     
-          div.class= team-member"{
-            width: 256px;
-            border: 1px solid black;
-            class:"team-member"
-            id:"anna"
-          }
-          
-          <img src="https://avatars.dicebear.com/api/avataaars/annakendrick.svg"alt="img not found "height="100px"width="100px">
-          <h2 Style="color:darkcyan;">Anna Kendrick</h2>
-        <h3 Style="color:darkcyan;">Front-end Ninja</h3>
-        <p>
-          Bibliophile, loves to dive into fictional worlds, ships JS code like
-          brownies
-        </p>
-          
-         </section>
-         <style>
-  /* <!--  
-  Style Specs
-  Background color should be “darkcyan”
-  Color should be “beige”
-  Each h2 and h3 under this section should be colored “honeydew” --> */
-    /* <!-- --------------------------------------------------- --> */
-    div.team-member {
-      width: 100px;
-      class="team-member";
-      border: 1px solid black;
-    }
-    <div class="team-member">
- <img src="https://avatars.dicebear.com/api/avataaars/harryfn.svg"alt="img not found "height="100px"width="100px">
-    <h2 Style="color:darkcyan;">Harry Fawn</h2>
-    <h3 Style="color:darkcyan;">Illustrator</h3>
-    <p>
-      Creates new illustrations each week, will kill for coffee, and loves
-      beaches.
-    </p>
-</div>
-    /* <!-- Image URL: 
-Style Specs
-Background color should be “cornsilk”
-Each h2 and h3 under this section should be colored “darkslategray” -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meet the team</title>
+    <style>
+        body{
+            background-color:snow;
+        }
+        .main-heading{
+            color: indigo;
+        }
+        .sub-title{
+            color:gray;
+        }
+        .team-member p{
+            opacity:0.8;
+        }
+        #anna{
+            background-color:darkcyan ;
+            color: beige;
+        }
+        #harry{
+            background-color:cornsilk ;
+            color:darkslategray
+        }
+        #sofia{
+            background-color:dodgerblue ;
+            color:lightcyan;
+        }
 
-    <!-- -------------------------------------------------------------- --> */
-    
-    <section>
-        <div class="team-member"
-        id="sofia";>
-      <img src="https://avatars.dicebear.com/api/avataaars/sofiasul.svg"
-      alt="img not found "height="100px"width="100px">
-    <h2 Style="color:darkcyan;">Sofia Sultan<h2>
-    <h3 Style="color:darkcyan;">Backend Engineer</h3>
-    <p>
-      Donuts over waffles. Martinis over whiskeys. Typescript over anything.
-    </p>
+    </style>
+</head>
+<body>
+<header>
+   <h1 class="main-heading"> Meet the team </h1>
+   <p class="sub-heading">The People who make this software awesome</p>
+</header>
 
-    <!-- Image URL:  -->
-  </body>
+<Section class="team-member" id="anna">
+  
+   <img class="profile-img" src="https://api.dicebear.com/7.x/avataaars/svg?seed=annakendrick" 
+   alt="img not available"
+   width="100"
+   height="100"
+   />
+   <h2>Anna Kendrick</h2>
+   <h3>Front-end Ninja</h3>
+   <p>Creates new illustrations each week, will kill for coffee, and loves beaches.</p>
+</Section>
+
+<Section class="team-member" id="harry">
+<img class="profile-img" src="https://api.dicebear.com/7.x/avataaars/svg?seed=harryfawn" 
+alt="img not available"width="100"
+height="100"
+/>
+   <h2>Harry Fawn</h2>
+   <h3>Illustrator</h3>
+   <p>Bibliophile, loves to dive into fictional worlds, ships JS code like brownies</p>
+</Section>
+
+</Section class="team-member" id="sofia">
+<img class="profile-img" src="https://api.dicebear.com/7.x/avataaars/svg?seed=sofiasulta"
+ alt="img not available"
+ width="100"
+   height="100"
+   />
+   <h2>Sofia Sultan</h2>
+   <h3>Backend Engineer</h3>
+   <p>Donuts over waffles. Martinis over whiskeys. Typescript over anything.</p>
+</Section>
+      
+
+
+
+</body>
 </html>
 
-
-   
